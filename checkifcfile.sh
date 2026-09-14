@@ -31,4 +31,5 @@ echo "/**
 *last_modified:$last_modified 
 *." > "$filename" 
 
-
+cat temp.txt >> $filename
+rm temp.txt
