@@ -31,10 +31,4 @@ echo "/**
 *last_modified:$last_modified 
 *." > "$filename" 
 
-cat temp.txt >> $filename 
-rm temp.txt
-echo "/**
-* File Name: $filename
-*Owner: $Owner
-*last_modified:$last_modified
-*." > "$filename"
+
