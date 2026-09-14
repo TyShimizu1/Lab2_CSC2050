@@ -3,7 +3,7 @@
 
 if [[ -z "$1" ]]; then 
 	echo "error, only 1 argument allowed"
-      	echo "Usage: $0 <filename.c">&2 
+      	echo "Usage: $0 <filename.c"> 
 	exit 1 
 fi 
 
